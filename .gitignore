@@ -1,0 +1,33 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+**/.openai/
+**/.codex/
+**/.agents/
+
+# Dependencies, temporary files, and local tooling
+node_modules/
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.tar
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Private operations and captured account evidence
+domain.json
+artifacts/
+screenshots/
